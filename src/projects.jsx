@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Header from '/header.jsx'
 
-function App() {
+function Projects() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
+      <header>
+        <h1>Zak's Portfolio</h1>
+      </header>
       <div>
-        <a href="/Zak-Portfolio/projects.html">
+        <a href="/">
           <h3>Link Here</h3>
         </a>
       </div>
@@ -18,7 +19,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/projects.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
@@ -28,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default Projects
