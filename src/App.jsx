@@ -7,11 +7,8 @@ function App() {
 
   return (
     <>
-      <Header />
-      <div>
-        <a href="/Zak-Portfolio/projects.html">
-          <h3>Link Here</h3>
-        </a>
+      <div className="navBar">
+        <Header />
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
