@@ -5,15 +5,15 @@ function Header() {
   return (
     <div className="card-nav-container">
       <nav className="card-nav-left">
-        <a href="/Zak-Portfolio">
+        <a href="/">
           <img src={Logo} className="card-nav-logo" alt="logo"/>
         </a>
       </nav>
       <nav className="card-nav-center">
-        <a href="/Zak-Portfolio">
+        <a href="/">
           <button className="card-nav-cta-button">Home</button>
         </a>
-        <a href='/Zak-Portfolio/project-page.html'>
+        <a href='/project-page.html'>
           <button className="card-nav-cta-button">Projects</button>
         </a>
         <button className="card-nav-cta-button">Placeholder</button>

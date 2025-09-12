@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Project.css'
 import Header from './header'
 
-function Project() {
+function ProjectRun() {
   const [count, setCount] = useState(0)
 
   return (
@@ -23,4 +23,4 @@ function Project() {
   )
 }
 
-export default Project
+export default ProjectRun
