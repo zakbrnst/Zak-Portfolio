@@ -8,7 +8,7 @@ function Header() {
         </a>
       </nav>
       <nav className="card-nav-center">
-        <a href="/">
+        <a href="/Zak-Portfolio">
           <button className="card-nav-cta-button">Home</button>
         </a>
         <a href="/Zak-Portfolio/projects.html">
