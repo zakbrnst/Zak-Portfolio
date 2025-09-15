@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
-  "homepage": "https://zakbrnst.github.io/Zak-Portfolio",
+  "homepage": "https://zakbrnst.github.io/zak-portfolio/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",

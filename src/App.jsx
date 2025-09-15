@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+    <div className="herosection">
       <div className="navBar">
         <Header />
       </div>
@@ -14,13 +15,12 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h1>Hero Page</h1>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        This is mildly darker for some reason.
       </p>
+    </div>
     </>
   )
 }

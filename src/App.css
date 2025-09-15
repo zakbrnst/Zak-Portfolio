@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+.herosection {
+  width: 99.1vw;
+  height: 100vh;
+  background-image: url('./assets/hero-bg.jpg');
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
