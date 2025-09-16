@@ -10,30 +10,6 @@ body {
   text-align: center;
 }
 
-.herosection {
-  width: 99.1vw;
-  height: 100vh;
-  background-image: url('./assets/hero-bg.jpg');
-}
-
-.heroName {
-  align-items: center;
-  display: flex;
-  font-size: 80px;
-  font-weight: bold;
-  padding-top: 80px;
-}
-
-.heroIntro {
-  float: left;
-  display: flex;
-  color:#2e89d4;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left:50px;
-  margin-top: 50px;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;

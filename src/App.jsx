@@ -3,7 +3,13 @@ import './App.css'
 import Header from './header'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [diceValue, setDiceValue] = useState(0)
+
+    function rollDice6(e) {
+    e.preventDefault(); // prevent form refresh
+    const randomNumber = Math.floor(Math.random() * 6) + 1;
+    setDiceValue(randomNumber); // update state
+  }
 
   return (
     <>
@@ -12,14 +18,15 @@ function App() {
         <Header />
       </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <h1>Hero Page</h1>
+        <div className="heroIntro">Hello, my name is</div>
+        <div className="heroName">Zak Bernstein</div>
       </div>
-      <p className="read-the-docs">
-        This is mildly darker for some reason.
-      </p>
+      <form>
+        <label id="diceVal">
+            {diceValue !== null ? `You rolled: ${diceValue} ` : "Roll the 6 sided dice!"}
+          </label>
+          <button onClick={rollDice6}>Roll Dice</button>
+      </form>
     </div>
     </>
   )
