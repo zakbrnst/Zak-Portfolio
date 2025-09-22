@@ -49,3 +49,11 @@ body {
 .navBar{
   margin: 0;
 }
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
